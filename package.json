@@ -1,0 +1,30 @@
+{
+  "name": "chatbot_openai",
+  "version": "1.0.0",
+  "description": "openAI based chatbot made using Node.js",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lifehackerr/chatBot_openAI.git"
+  },
+  "keywords": [
+    "chatbot"
+  ],
+  "author": "omkesh varshney",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lifehackerr/chatBot_openAI/issues"
+  },
+  "homepage": "https://github.com/lifehackerr/chatBot_openAI#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^16.3.2",
+    "openai": "^4.24.7",
+    "readline-sync": "^1.4.10"
+  }
+}
